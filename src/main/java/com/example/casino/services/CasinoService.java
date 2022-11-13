@@ -1,5 +1,6 @@
-package com.example.casino;
+package com.example.casino.services;
 
+import com.example.casino.BalanceRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.example.casino;
+package com.example.casino.controllers;
 
-import com.example.casino.model.Play;
+import com.example.casino.services.CasinoService;
 import com.example.casino.model.TransferBalance;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 
 @Slf4j
-@RequestMapping("/balance")
+@RestController
+@RequestMapping("api/balance")
 @AllArgsConstructor
 public class BalanceController {
 
